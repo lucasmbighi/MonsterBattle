@@ -11,7 +11,7 @@ import SwiftUI
 struct MonsterBattleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BattleView(viewModel: BattleViewModel())
         }
     }
 }

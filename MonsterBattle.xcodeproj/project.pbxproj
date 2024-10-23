@@ -8,17 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		521A395B2CC80FCA00F842B8 /* MonsterBattleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A395A2CC80FCA00F842B8 /* MonsterBattleApp.swift */; };
-		521A395D2CC80FCA00F842B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A395C2CC80FCA00F842B8 /* ContentView.swift */; };
 		521A395F2CC80FCC00F842B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A395E2CC80FCC00F842B8 /* Assets.xcassets */; };
 		521A39622CC80FCC00F842B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521A39612CC80FCC00F842B8 /* Preview Assets.xcassets */; };
+		521A396F2CC8106700F842B8 /* BattleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A396E2CC8106700F842B8 /* BattleView.swift */; };
+		521A39712CC8109000F842B8 /* BattleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A39702CC8109000F842B8 /* BattleViewModel.swift */; };
+		521A39742CC810F000F842B8 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A39732CC810F000F842B8 /* Monster.swift */; };
+		521A39762CC8141500F842B8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 521A39752CC8141500F842B8 /* Roboto-Regular.ttf */; };
+		521A397A2CC8148B00F842B8 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A39792CC8148B00F842B8 /* FontExtensions.swift */; };
+		521A397C2CC8154400F842B8 /* MonsterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A397B2CC8154400F842B8 /* MonsterCardView.swift */; };
+		521A397E2CC8196300F842B8 /* DetailedMonsterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A397D2CC8196300F842B8 /* DetailedMonsterCardView.swift */; };
+		521A39802CC81D5200F842B8 /* BattleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A397F2CC81D5200F842B8 /* BattleRequest.swift */; };
+		521A39822CC81D6B00F842B8 /* BattleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A39812CC81D6B00F842B8 /* BattleResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		521A39572CC80FCA00F842B8 /* MonsterBattle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterBattle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		521A395A2CC80FCA00F842B8 /* MonsterBattleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBattleApp.swift; sourceTree = "<group>"; };
-		521A395C2CC80FCA00F842B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		521A395E2CC80FCC00F842B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		521A39612CC80FCC00F842B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		521A396E2CC8106700F842B8 /* BattleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleView.swift; sourceTree = "<group>"; };
+		521A39702CC8109000F842B8 /* BattleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleViewModel.swift; sourceTree = "<group>"; };
+		521A39732CC810F000F842B8 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		521A39752CC8141500F842B8 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		521A39772CC8142600F842B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		521A39792CC8148B00F842B8 /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		521A397B2CC8154400F842B8 /* MonsterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardView.swift; sourceTree = "<group>"; };
+		521A397D2CC8196300F842B8 /* DetailedMonsterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedMonsterCardView.swift; sourceTree = "<group>"; };
+		521A397F2CC81D5200F842B8 /* BattleRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleRequest.swift; sourceTree = "<group>"; };
+		521A39812CC81D6B00F842B8 /* BattleResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +68,12 @@
 		521A39592CC80FCA00F842B8 /* MonsterBattle */ = {
 			isa = PBXGroup;
 			children = (
-				521A395A2CC80FCA00F842B8 /* MonsterBattleApp.swift */,
-				521A395C2CC80FCA00F842B8 /* ContentView.swift */,
-				521A395E2CC80FCC00F842B8 /* Assets.xcassets */,
+				521A39782CC8147C00F842B8 /* Extensions */,
+				521A39722CC810E700F842B8 /* Models */,
+				521A39772CC8142600F842B8 /* Info.plist */,
+				521A39682CC80FF600F842B8 /* Modules */,
+				521A396A2CC8101500F842B8 /* App */,
+				521A396B2CC8103100F842B8 /* Resources */,
 				521A39602CC80FCC00F842B8 /* Preview Content */,
 			);
 			path = MonsterBattle;
@@ -65,6 +85,76 @@
 				521A39612CC80FCC00F842B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		521A39682CC80FF600F842B8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				521A39692CC80FFE00F842B8 /* Battle */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		521A39692CC80FFE00F842B8 /* Battle */ = {
+			isa = PBXGroup;
+			children = (
+				521A396D2CC8104E00F842B8 /* ViewModels */,
+				521A396C2CC8104700F842B8 /* Views */,
+			);
+			path = Battle;
+			sourceTree = "<group>";
+		};
+		521A396A2CC8101500F842B8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				521A395A2CC80FCA00F842B8 /* MonsterBattleApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		521A396B2CC8103100F842B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				521A39752CC8141500F842B8 /* Roboto-Regular.ttf */,
+				521A395E2CC80FCC00F842B8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		521A396C2CC8104700F842B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				521A396E2CC8106700F842B8 /* BattleView.swift */,
+				521A397D2CC8196300F842B8 /* DetailedMonsterCardView.swift */,
+				521A397B2CC8154400F842B8 /* MonsterCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		521A396D2CC8104E00F842B8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				521A39702CC8109000F842B8 /* BattleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		521A39722CC810E700F842B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				521A39732CC810F000F842B8 /* Monster.swift */,
+				521A39812CC81D6B00F842B8 /* BattleResponse.swift */,
+				521A397F2CC81D5200F842B8 /* BattleRequest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		521A39782CC8147C00F842B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				521A39792CC8148B00F842B8 /* FontExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521A39762CC8141500F842B8 /* Roboto-Regular.ttf in Resources */,
 				521A39622CC80FCC00F842B8 /* Preview Assets.xcassets in Resources */,
 				521A395F2CC80FCC00F842B8 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +228,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				521A395D2CC80FCA00F842B8 /* ContentView.swift in Sources */,
+				521A39822CC81D6B00F842B8 /* BattleResponse.swift in Sources */,
+				521A397E2CC8196300F842B8 /* DetailedMonsterCardView.swift in Sources */,
+				521A39742CC810F000F842B8 /* Monster.swift in Sources */,
+				521A397C2CC8154400F842B8 /* MonsterCardView.swift in Sources */,
+				521A39802CC81D5200F842B8 /* BattleRequest.swift in Sources */,
+				521A396F2CC8106700F842B8 /* BattleView.swift in Sources */,
+				521A397A2CC8148B00F842B8 /* FontExtensions.swift in Sources */,
 				521A395B2CC80FCA00F842B8 /* MonsterBattleApp.swift in Sources */,
+				521A39712CC8109000F842B8 /* BattleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +373,7 @@
 				DEVELOPMENT_TEAM = N63WMA8228;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonsterBattle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +403,7 @@
 				DEVELOPMENT_TEAM = N63WMA8228;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonsterBattle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
